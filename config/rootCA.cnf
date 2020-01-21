@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=HK
+ST=Hong Kong
+L=Kowloown
+O=My Org
+OU=My Unit
+emailAddress=m.sciachero@gmail.com
+CN = localhost
