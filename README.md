@@ -9,6 +9,17 @@ The only "manual" step is to import the certificate `build/rootCA.pem" in your k
 
 All the certificate will be generated in `build` directory.
 
+## Requirement
+
+The script require openssl installed, for MacOs will work only with the brew version:
+
+```
+brew install openssl
+```
+and read carefully the output of the command in order to install it properly.
+
+Not tested on Windows, but should work with Cygwin.
+
 ## Usage
 change the following configuration file located in `config`:
 
@@ -27,3 +38,4 @@ In the `build` directory you will find the following files:
 * server.key - The private key of the server, usually must be configured in your application
 * server.csr - Certificate request, can be ignored
 * rootCA.slr - Not used, serial number of the rootCA
+

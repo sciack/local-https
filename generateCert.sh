@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 dirbase=`dirname $0`
 build=$dirbase/build
